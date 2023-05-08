@@ -1,0 +1,79 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'settings.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Settings _$SettingsFromJson(Map<String, dynamic> json) => Settings(
+      theme: $enumDecode(_$FlexSchemeEnumMap, json['theme']),
+      themeMode: $enumDecode(_$ThemeModeEnumMap, json['themeMode']),
+    );
+
+Map<String, dynamic> _$SettingsToJson(Settings instance) => <String, dynamic>{
+      'theme': _$FlexSchemeEnumMap[instance.theme]!,
+      'themeMode': _$ThemeModeEnumMap[instance.themeMode]!,
+    };
+
+const _$FlexSchemeEnumMap = {
+  FlexScheme.material: 'material',
+  FlexScheme.materialHc: 'materialHc',
+  FlexScheme.blue: 'blue',
+  FlexScheme.indigo: 'indigo',
+  FlexScheme.hippieBlue: 'hippieBlue',
+  FlexScheme.aquaBlue: 'aquaBlue',
+  FlexScheme.brandBlue: 'brandBlue',
+  FlexScheme.deepBlue: 'deepBlue',
+  FlexScheme.sakura: 'sakura',
+  FlexScheme.mandyRed: 'mandyRed',
+  FlexScheme.red: 'red',
+  FlexScheme.redWine: 'redWine',
+  FlexScheme.purpleBrown: 'purpleBrown',
+  FlexScheme.green: 'green',
+  FlexScheme.money: 'money',
+  FlexScheme.jungle: 'jungle',
+  FlexScheme.greyLaw: 'greyLaw',
+  FlexScheme.wasabi: 'wasabi',
+  FlexScheme.gold: 'gold',
+  FlexScheme.mango: 'mango',
+  FlexScheme.amber: 'amber',
+  FlexScheme.vesuviusBurn: 'vesuviusBurn',
+  FlexScheme.deepPurple: 'deepPurple',
+  FlexScheme.ebonyClay: 'ebonyClay',
+  FlexScheme.barossa: 'barossa',
+  FlexScheme.shark: 'shark',
+  FlexScheme.bigStone: 'bigStone',
+  FlexScheme.damask: 'damask',
+  FlexScheme.bahamaBlue: 'bahamaBlue',
+  FlexScheme.mallardGreen: 'mallardGreen',
+  FlexScheme.espresso: 'espresso',
+  FlexScheme.outerSpace: 'outerSpace',
+  FlexScheme.blueWhale: 'blueWhale',
+  FlexScheme.sanJuanBlue: 'sanJuanBlue',
+  FlexScheme.rosewood: 'rosewood',
+  FlexScheme.blumineBlue: 'blumineBlue',
+  FlexScheme.flutterDash: 'flutterDash',
+  FlexScheme.materialBaseline: 'materialBaseline',
+  FlexScheme.verdunHemlock: 'verdunHemlock',
+  FlexScheme.dellGenoa: 'dellGenoa',
+  FlexScheme.redM3: 'redM3',
+  FlexScheme.pinkM3: 'pinkM3',
+  FlexScheme.purpleM3: 'purpleM3',
+  FlexScheme.indigoM3: 'indigoM3',
+  FlexScheme.blueM3: 'blueM3',
+  FlexScheme.cyanM3: 'cyanM3',
+  FlexScheme.tealM3: 'tealM3',
+  FlexScheme.greenM3: 'greenM3',
+  FlexScheme.limeM3: 'limeM3',
+  FlexScheme.yellowM3: 'yellowM3',
+  FlexScheme.orangeM3: 'orangeM3',
+  FlexScheme.deepOrangeM3: 'deepOrangeM3',
+  FlexScheme.custom: 'custom',
+};
+
+const _$ThemeModeEnumMap = {
+  ThemeMode.system: 'system',
+  ThemeMode.light: 'light',
+  ThemeMode.dark: 'dark',
+};
